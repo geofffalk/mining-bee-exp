@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mining Bee</string>
+    <string name="settings">Settings</string>
+    <string name="video_pid">Video Pid</string>
+</resources>
