@@ -1,10 +1,10 @@
 package com.falkg.miningbee.data.miningbeeserver
 
-import com.falkg.miningbee.domain.model.RecommendationList
-import com.falkg.miningbee.domain.model.Recommendation as ModelRecommendation
-import com.falkg.miningbee.domain.model.VideoSet as ModelVideoSet
-import com.falkg.miningbee.domain.model.Video as ModelVideo
-import com.falkg.miningbee.domain.model.Image as ModelImage
+import com.falkg.miningbee.feature.recommendations.domain.model.RecommendationList
+import com.falkg.miningbee.feature.recommendations.domain.model.Recommendation as ModelRecommendation
+import com.falkg.miningbee.feature.videoset.domain.model.VideoSet as ModelVideoSet
+import com.falkg.miningbee.feature.videoset.domain.model.Video as ModelVideo
+import com.falkg.miningbee.feature.shared.domain.model.Image as ModelImage
 
 class ServerDataMapper {
 

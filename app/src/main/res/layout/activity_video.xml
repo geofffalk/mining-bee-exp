@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.falkg.miningbee.ui.activities.SmpView
+    <com.falkg.miningbee.feature.shared.ui.SmpView
         android:id="@+id/currentVideo"
         android:background="@color/beta"
         android:layout_height="0dp"

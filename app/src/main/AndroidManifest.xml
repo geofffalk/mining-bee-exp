@@ -4,26 +4,26 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:name=".ui.App"
+        android:name="com.falkg.miningbee.feature.shared.ui.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name=".ui.activities.RecommendationsActivity">
+        <activity android:name="com.falkg.miningbee.feature.recommendations.ui.activities.RecommendationsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activities.VideoActivity"
-            android:parentActivityName=".ui.activities.RecommendationsActivity">
+        <activity android:name="com.falkg.miningbee.feature.videoset.ui.activities.VideoActivity"
+            android:parentActivityName="com.falkg.miningbee.feature.recommendations.ui.activities.RecommendationsActivity">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".ui.activities.RecommendationsActivity"/>
+            android:value="com.falkg.miningbee.feature.recommendations.ui.activities.RecommendationsActivity"/>
         </activity>
-        <activity android:name=".ui.activities.SettingsActivity"
+        <activity android:name="com.falkg.miningbee.feature.recommendations.ui.activities.SettingsActivity"
             android:label="Settings"/>
     </application>
 </manifest>
