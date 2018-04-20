@@ -2,7 +2,7 @@ package com.falkg.miningbee.feature.recommendations.domain.datasource
 
 import com.falkg.miningbee.data.miningbeeserver.MiningBeeServer
 import com.falkg.miningbee.feature.recommendations.domain.model.RecommendationList
-import com.falkg.miningbee.util.firstResult
+import com.falkg.miningbee.extensions.firstResult
 
 class RecommendationsProvider(private val sources: List<RecommendationsDataSource> = SOURCES) {
 

@@ -7,7 +7,7 @@ import android.support.v7.widget.Toolbar
 import com.falkg.miningbee.R
 import com.falkg.miningbee.feature.recommendations.domain.interactors.RequestRecommendationsInteractor
 import com.falkg.miningbee.feature.recommendations.domain.model.RecommendationList
-import com.falkg.miningbee.util.DelegatesExt
+import com.falkg.miningbee.extensions.DelegatesExt
 import com.falkg.miningbee.feature.shared.ui.ToolbarManager
 import com.falkg.miningbee.feature.videoset.ui.activities.VideoActivity
 import com.falkg.miningbee.feature.recommendations.ui.adapters.RecommendationListAdapter

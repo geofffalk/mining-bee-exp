@@ -4,9 +4,9 @@ import android.support.v7.graphics.drawable.DrawerArrowDrawable
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
 import com.falkg.miningbee.R
-import com.falkg.miningbee.util.ctx
-import com.falkg.miningbee.util.slideEnter
-import com.falkg.miningbee.util.slideExit
+import com.falkg.miningbee.extensions.ctx
+import com.falkg.miningbee.extensions.slideEnter
+import com.falkg.miningbee.extensions.slideExit
 import com.falkg.miningbee.feature.recommendations.ui.activities.SettingsActivity
 import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast

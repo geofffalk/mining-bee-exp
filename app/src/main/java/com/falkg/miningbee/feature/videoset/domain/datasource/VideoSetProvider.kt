@@ -2,7 +2,7 @@ package com.falkg.miningbee.feature.videoset.domain.datasource
 
 import com.falkg.miningbee.data.miningbeeserver.MiningBeeServer
 import com.falkg.miningbee.feature.videoset.domain.model.VideoSet
-import com.falkg.miningbee.util.firstResult
+import com.falkg.miningbee.extensions.firstResult
 
 class VideoSetProvider(private val sources: List<VideoSetDataSource> = SOURCES) {
 

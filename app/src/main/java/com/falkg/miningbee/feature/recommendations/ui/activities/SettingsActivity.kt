@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
 import com.falkg.miningbee.R
-import com.falkg.miningbee.util.DelegatesExt
+import com.falkg.miningbee.extensions.DelegatesExt
 import kotlinx.android.synthetic.main.activity_settings.*
 import kotlinx.android.synthetic.main.toolbar.*
 

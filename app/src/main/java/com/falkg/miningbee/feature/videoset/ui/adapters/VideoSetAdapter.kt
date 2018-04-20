@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.falkg.miningbee.R
 import com.falkg.miningbee.feature.videoset.domain.model.Video
 import com.falkg.miningbee.feature.videoset.domain.model.VideoSet
-import com.falkg.miningbee.util.ctx
+import com.falkg.miningbee.extensions.ctx
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_recommendation.*
 

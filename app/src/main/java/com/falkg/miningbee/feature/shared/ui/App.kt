@@ -1,7 +1,7 @@
 package com.falkg.miningbee.feature.shared.ui
 
 import android.app.Application
-import com.falkg.miningbee.util.DelegatesExt
+import com.falkg.miningbee.extensions.DelegatesExt
 
 class App : Application() {
 

@@ -1,4 +1,4 @@
-package com.falkg.miningbee.util
+package com.falkg.miningbee.extensions
 
 import java.util.NoSuchElementException
 

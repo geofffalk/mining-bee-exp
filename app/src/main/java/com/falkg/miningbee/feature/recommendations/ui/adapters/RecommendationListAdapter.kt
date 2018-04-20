@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.falkg.miningbee.R
 import com.falkg.miningbee.feature.recommendations.domain.model.Recommendation
 import com.falkg.miningbee.feature.recommendations.domain.model.RecommendationList
-import com.falkg.miningbee.util.ctx
+import com.falkg.miningbee.extensions.ctx
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_recommendation.*
 
